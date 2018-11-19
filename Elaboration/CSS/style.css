@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.800);
+    width: auto;
+    height: auto;
+}
+
+header {
+    background-color: #af0000ff;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 95%;
+    height: 50px;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 4%;
+    margin-left: 4%;
+    height: 100%;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+nav li:hover {
+    background-color: chartreuse;
+    color: blue;
+}
+
+#accueil {
+    background-color: #2d5572f5;
+    border: 2px solid #af0000ff;
+    width: 95%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#projects {
+    background-color: #2d5572f5;
+    border: 2px solid #af0000ff;
+    width: 95%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#CV {
+    background-color: #2d5572f5;
+    border: 2px solid #af0000ff;
+    width: 95%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#contact {
+    background-color: #2d5572f5;
+    border: 2px solid #af0000ff;
+    width: 95%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#about {
+    background-color: #2d5572f5;
+    border: 2px solid #af0000ff;
+    width: 95%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+footer {
+    background-color: #2d5572f5;
+    border: 2px solid b#af0000ff;
+    width: 95%;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
