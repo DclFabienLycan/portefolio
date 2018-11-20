@@ -12,11 +12,16 @@ html {
 header {
     background-color: #af0000ff;
     border: 2px solid black;
+    box-shadow: 2px 3px 4px black;
     margin-top: 1%;
     margin-left: 1%;
+    font-family: "Spectre Verde BB";
     width: 95%;
     height: 50px;
+    position: fixed;
+    bottom: 0;
 }
+
 
 nav {
     height: 100%;
@@ -34,23 +39,30 @@ nav ul {
 
 nav li {
     display: flex;
+    justify-content: center;
     align-items: center;
     color: white;
+    width: 100%;
     height: 100%;
     text-transform: uppercase;
 }
 
-nav li:hover {
+nav li:hover, nav a:hover {
     background-color: chartreuse;
     color: blue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 #accueil {
     background-color: #2d5572f5;
     border: 2px solid #af0000ff;
     width: 95%;
-    height: 350px;
-    margin-top: 2%;
+    height: 650px;
+    margin-top: 1%;
     margin-left: 1%;
 }
 
@@ -58,8 +70,8 @@ nav li:hover {
     background-color: #2d5572f5;
     border: 2px solid #af0000ff;
     width: 95%;
-    height: 350px;
-    margin-top: 2%;
+    height: 650px;
+    /* margin-top: 2%; */
     margin-left: 1%;
 }
 
@@ -67,8 +79,8 @@ nav li:hover {
     background-color: #2d5572f5;
     border: 2px solid #af0000ff;
     width: 95%;
-    height: 350px;
-    margin-top: 2%;
+    height: 650px;
+    /* margin-top: 2%; */
     margin-left: 1%;
 }
 
@@ -76,8 +88,8 @@ nav li:hover {
     background-color: #2d5572f5;
     border: 2px solid #af0000ff;
     width: 95%;
-    height: 350px;
-    margin-top: 2%;
+    height: 650px;
+    /* margin-top: 2%; */
     margin-left: 1%;
 }
 
@@ -85,16 +97,48 @@ nav li:hover {
     background-color: #2d5572f5;
     border: 2px solid #af0000ff;
     width: 95%;
-    height: 350px;
-    margin-top: 2%;
+    height: 650px;
+    /* margin-top: 2%; */
     margin-left: 1%;
+}
+
+h2 {
+    font-family: "Spectre Verde BB";
+    font-size: 1.2em;
+    margin-bottom: 7%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 footer {
     background-color: #2d5572f5;
     border: 2px solid b#af0000ff;
+    display: flex;
     width: 95%;
     height: 50px;
     margin-top: 2%;
     margin-left: 1%;
+    margin-bottom: 65px;
+}
+
+#retour {
+    top: 0;
+    right: 5%;
+    position: fixed;
+}
+
+/* button {
+    background-color: transparent;
+    text-decoration: transparent;
+    border-style: none;
+    width: 50px;
+    height: 50px;
+} */
+
+img {
+    margin-left: 5px;
+    margin-top: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
 }

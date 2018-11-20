@@ -1,0 +1,59 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    font-family: 'Shanghai';
+    font-size: 0.8em;
+}
+
+header {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 150px;
+}
+
+#identite {
+    display: flex;
+    flex-direction: column;
+}
+
+#identite p {
+    color: white;
+    background-color: #438086;
+    border: 1px transparent;
+    font-family: 'Shanghai';
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #af0000ff;
+    font-size: 1.2em;
+    margin-bottom: -2%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#identite ul {
+    list-style-type: none;
+    line-height: 15px;
+    text-align: left;
+    margin-left: -10%;
+}
+
+#identite li {
+    color: #af0000ff;
+}
+
+#perm {
+    color: white;
+    margin-right: 5%;
+    margin-top: -34%;
+    text-align: right;
+}

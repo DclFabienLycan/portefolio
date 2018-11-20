@@ -10,7 +10,8 @@
 <body>
     <header>
         <div id="identite">
-            <h2>Fabien BERAUD</h2>
+            <p>Fabien BERAUD</p>
+            <h3>Développeur Web / Web Mobile</h3>
             <ul>
                 <li>27 ans</li>
                 <li>57 Avenue Pierre Bérégovoy</li>
@@ -21,5 +22,8 @@
             <p>Permis A, B</p>
         </div>
     </header>
+    <main>
+        
+    </main>
 </body>
 </html>
