@@ -4,13 +4,14 @@
 } */
 
 html {
-    font-family: 'Shanghai';
+    background-color: blueviolet;
+    font-family: 'Ranga';
     font-size: 0.8em;
 }
 
 header {
-    background-color: black;
-    border: 2px solid black;
+    background-image: linear-gradient(red, yellow);
+    border: 2px solid #af0000ff;
     border-radius: 5%;
     height: 150px;
 }
@@ -33,8 +34,9 @@ header {
 }
 
 h3 {
-    color: #af0000ff;
+    color: blue;
     font-size: 1.2em;
+    font-family: 'Shanghai';
     margin-bottom: -2%;
     margin-top: 1%;
     text-align: center;
@@ -48,7 +50,7 @@ h3 {
 }
 
 #identite li {
-    color: #af0000ff;
+    color: black;
 }
 
 #perm {
@@ -56,4 +58,127 @@ h3 {
     margin-right: 5%;
     margin-top: -34%;
     text-align: right;
+}
+
+#compTrans {
+    background-image: linear-gradient(yellow, red);
+    border: 2px solid #af0000ff;
+    border-radius: 5%;
+    height: 80px;
+}
+
+#compTrans button {
+    color: black;
+    background-color: transparent;
+    box-shadow: 2px 3px 2px grey;
+    border: 1px solid red;
+    border-radius: 15%;
+    font-size: 1.5em;
+}
+
+#compTrans button:active {
+    background-color: red;
+    color: yellow;
+    box-shadow: none;
+}
+
+#compTrans h3 {
+    color: blue;
+}
+
+.aff {
+    color: black;
+}
+
+#comp {
+    background-image: linear-gradient(red ,yellow ) ;
+    border: 2px solid #af0000ff;
+    border-radius: 5%;
+    height: 80px;
+}
+
+#comp button {
+    color: black;
+    background-color: transparent;
+    box-shadow: 2px 3px 2px grey;
+    border: 1px solid yellow;
+    border-radius: 15%;
+    font-size: 1.5em;
+}
+
+#comp button:active {
+    background-color: yellow;
+    color: red;
+    box-shadow: none;
+}
+
+#comp h3 {
+    color: blue;
+}
+
+#experiences {
+    background-image: linear-gradient(yellow, red);
+    border: 2px solid #af0000ff;
+    border-radius: 5%;
+    height: 80px;
+}
+
+#experiences button {
+    color: black;
+    background-color: transparent;
+    box-shadow: 2px 3px 2px grey;
+    border: 1px solid red;
+    border-radius: 15%;
+    font-size: 1.5em;
+}
+
+#experiences button:active {
+    background-color: red;
+    color: yellow;
+    box-shadow: none;
+}
+
+#experiences h3 {
+    color: blue;
+}
+
+#formations {
+    background-image: linear-gradient(red,yellow);
+    border: 2px solid #af0000ff;
+    border-radius: 5%;
+    height: 80px;
+}
+
+#formations button {
+    color: black;
+    background-color: transparent;
+    box-shadow: 2px 3px 2px grey;
+    border: 1px solid yellow;
+    border-radius: 15%;
+    font-size: 1.5em;
+}
+
+#formations button:active {
+    background-color: yellow;
+    color: red;
+    box-shadow: none;
+}
+
+#formations h3 {
+    color: blue;
+}
+
+footer {
+    background-image: linear-gradient(yellow, red);
+    border-radius: 5%;
+    border: 2px solid #af0000ff;
+    height: 80px;
+}
+
+img {
+    margin-left: 5px;
+    margin-top: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
 }
