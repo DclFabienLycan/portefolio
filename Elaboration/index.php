@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../CSS/styleCV.css">
+    <link rel="stylesheet" href="CSS/styleCV.css">
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet"> 
     <title>Curriculum Vitae</title>
 </head>
@@ -93,6 +93,6 @@
         <a href="https://github.com/DclFabienLycan" target="_blank"><img src="../img/github-logo_icon-icons.com_73546.svg"></a>
         <a href="https://www.linkedin.com/in/fabien-b-85bb21171/" target="_blank"><img src="../img/LinkedIn_Rounded_icon-icons.com_61573.svg"></a>
     </footer>
-    <script src="../JS/cv.js"></script>
+    <script src="JS/cv.js"></script>
 </body>
 </html>
