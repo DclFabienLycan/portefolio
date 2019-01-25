@@ -11,16 +11,18 @@
 <body>
     <header>
         <div id="identite">
-            <p>Fabien BERAUD</p>
-            <h3>Développeur Web / Web Mobile</h3>
-            <ul>
-                <li>27 ans</li>
-                <li>57 Avenue Pierre Bérégovoy</li>
-                <li>18000 BOURGES</li>
-            </ul>
-        </div>
-        <div id="perm">
-            <p>Permis A, B</p>
+            <div id="tete">
+                <p>Fabien BERAUD</p>
+                <div id="perm">
+                    <p>Permis A et B</p>
+                </div>
+            </div>
+        <h3>Développeur Web / Web Mobile</h3>
+                <ul>
+                    <li>27 ans</li>
+                    <li>57 Avenue Pierre Bérégovoy</li>
+                    <li>18000 BOURGES</li>
+                </ul>
         </div>
     </header>
     <main>
@@ -36,8 +38,21 @@
                 </ul>
             </div>
         </div>
-        <div id="comp">
+        <div id="compWeb">
             <button type="button" id="more2">+</button>
+            <h3>Compétences Web</h3>
+            <div class="aff">
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+        <div id="comp">
+            <button type="button" id="more3">+</button>
             <h3>Compétences Personnelles</h3>
             <div class="aff">
                 <ul>
@@ -49,7 +64,7 @@
             </div>
         </div>
         <div id="experiences">
-            <button type="button" id="more3">+</button>
+            <button type="button" id="more4">+</button>
             <h3>Expériences</h3>
             <div class="aff">
                 <ul>
@@ -61,11 +76,11 @@
             </div>
         </div>
         <div id="formations">
-            <button type="button" id="more4">+</button>
+            <button type="button" id="more5">+</button>
             <h3>Formations</h3>
             <div class="aff">
                 <ul>
-                    <li>2018 à ce jour - Formation Titre Professionnel niveau III - Développeur Web et Web Mobile à AFORMAC</li>
+                    <li>2018 à ce jour - Formation Titre Professionnel niveau III - Développeur Web et Web Mobile - AFORMAC</li>
                     <li>2014 - Accréditation PSA - Technicien au Diagnostic Automobile</li>
                     <li>2009-2011 - Baccalauréat Professionnel MVA au CFA de Bourges - Lauréat du Cher</li>
                     <li>2009-2010 - Mention Complémentaire MCMSEA au CFA de Bourges</li>
